@@ -17,8 +17,11 @@ Display the eigenvalues and eigenvectors using the print() function.
 
 ## Program:
 #Program to find the eigen values and eigen vectors.
+
 #Developed by: Mohana K.V.S.L
+
 #RegisterNumber: 24900659
+
 import numpy as np
 
 a= np.array([[2,-3,0],[2,-5,0],[0,0,3]])
