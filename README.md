@@ -21,17 +21,17 @@ Display the eigenvalues and eigenvectors using the print() function.
 #Developed by: Mohana K.V.S.L
 
 #RegisterNumber: 24900659
-
 import numpy as np
 
-a= np.array([[2,-3,0],[2,-5,0],[0,0,3]])
+a= np.array([[-2,2,-3],[2,1,-6],[-1,-2,0]])
 
 values,vectors=np.linalg.eig(a)
 
 print('Eigen values are {} and Eigen Vectors are {} '.format(values,vectors))
 
 ## Output:
-![Screenshot (37)](https://github.com/user-attachments/assets/f0e1cd96-dcba-4161-a019-912e90acadc1)
+![Screenshot 2025-05-16 194522](https://github.com/user-attachments/assets/ea8648d9-4931-4ceb-ba7e-1e753a86569f)
+
 
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
